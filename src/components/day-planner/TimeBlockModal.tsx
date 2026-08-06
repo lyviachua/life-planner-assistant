@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Modal } from '@/components/ui/Modal';
 import { FormField } from '@/components/ui/FormField';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { saveTimeBlock, deleteTimeBlock, getTasks } from '@/services/dataService';
 import { TimeBlock, Task } from '@/types';
 import { Trash2 } from 'lucide-react';

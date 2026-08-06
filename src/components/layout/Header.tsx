@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, Bot, Plus, Calendar, Clock, Sparkles, LogOut } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { resetActiveDateToToday } from '@/services/dataService';
 import { QuickAddModal } from '../quick-add/QuickAddModal';
 import { useAuth } from '@/context/AuthContext';

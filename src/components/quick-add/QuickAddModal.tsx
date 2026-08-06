@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal } from '@/components/ui/Modal';
 import { FormField } from '@/components/ui/FormField';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import {
   saveEvent,
   saveTask,

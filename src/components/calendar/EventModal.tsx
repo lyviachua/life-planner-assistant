@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Modal } from '@/components/ui/Modal';
 import { FormField } from '@/components/ui/FormField';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { saveEvent, deleteEvent } from '@/services/dataService';
 import { CalendarEvent } from '@/types';
 import { AlertTriangle, Trash2 } from 'lucide-react';
