@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Card } from '@/components/ui/Card';
+import { Card } from '@/components/ui/card';
 import { FormField } from '@/components/ui/FormField';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { getAppSettings, saveAppSettings } from '@/services/storageService';
 import { loadSampleData, clearAllData } from '@/services/dataService';
 import { testOllamaConnection } from '@/services/ollamaService';

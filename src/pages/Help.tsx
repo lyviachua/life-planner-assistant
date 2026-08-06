@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '@/components/ui/Card';
+import { Card } from '@/components/ui/card';
 import { HelpCircle, Sparkles, Server, Shield } from 'lucide-react';
 
 const HelpPage: React.FC = () => {
